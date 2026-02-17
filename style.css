@@ -1,6 +1,7 @@
 body{
   font-family: Roboto, sans-serif;  
-  color: black;
+  
+    background-color: black;
 }
 
 .header {
@@ -80,7 +81,7 @@ button {
   display: flex;
   flex-direction: column;
   padding: 16px;
-  background-color: #E5E7EB;
+  background-color: white;
   color: #1f2937;
   gap: 50px; /* space between .top and .bottom */
   width: 50%;
@@ -137,6 +138,84 @@ h1{
   color: #1f2937;
 }
 
+.third{
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  background-color: #E5E7EB;
+  gap: 50px; /* space between .top and .bottom */
+  width: 50%;
+  margin: 0 auto;
+  padding: 0 100px;
+  padding-bottom: 100px;
+}
+
+.quote{
+  margin-top: 100px;
+  padding: 20px;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1f2937;
+}
+
+.name{
+  align-self: flex-end;
+  font-size: 24px;
+  color: rgb(77, 3, 3);
+}
+
+.action{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 16px;
+  background-color: white;
+  color: #1f2937;
+  gap: 50px; /* space between .top and .bottom */
+  width: 50%;
+  margin: 0 auto;
+  padding: 0 100px;
+  padding-bottom: 100px;
+}
+
+.call{
+  display: flex;
+  margin-top: 100px;
+  width: 50%;
+  height: auto;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.call-two{
+  border:2px solid white;
+  border-radius: 10px;;
+}
+
+.last{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 16px;
+  background-color: #1f2937;
+  color:#F9FAF8;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0 100px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+a {
+  color: white;
+}
 
 
 
